@@ -50,7 +50,7 @@ def handle_question():
     else:
         return redirect(f"/questions/{len(responses)}")
 
-
+# STEP 8 USING THE SESSEION
 @app.route("/questions/<int:qid>")
 def show_question(qid):
     """Display current question."""
